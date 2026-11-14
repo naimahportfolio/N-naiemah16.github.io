@@ -59,3 +59,1334 @@
     transition: none !important;
     animation: none !important;
 }
+
+
+/* ===================================
+   WARM PORTFOLIO COLOUR THEME
+=================================== */
+
+:root {
+    --warm-cream: #F7F0E8;
+    --soft-beige: #E8D8C8;
+    --muted-plum: #805B7A;
+    --deep-plum: #493746;
+    --terracotta: #B98268;
+    --warm-text: #51464D;
+}
+
+/* Main website background */
+body {
+    background-color: var(--warm-cream);
+    color: var(--warm-text);
+    font-family: Arial, sans-serif;
+}
+
+/* Main headings */
+h1, h2, h3, h4, h5 {
+    color: var(--deep-plum);
+}
+
+/* Links */
+a {
+    color: var(--muted-plum);
+}
+
+/* Footer */
+.footer-area {
+    background-color: var(--deep-plum) !important;
+}
+
+.footer-top-cap span {
+    color: #FFFFFF;
+}
+
+.footer-top-cap p,
+.footer-copy-right p {
+    color: #E8D8C8;
+}
+
+.footer-copy-right a {
+    color: #E4B99F;
+}
+
+/* Portfolio interest cards */
+.single-cat {
+    background-color: #FFFDF9 !important;
+    border: 1px solid var(--soft-beige);
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(73, 55, 70, 0.08);
+}
+
+/* Keep cards still without movement */
+.single-cat,
+.single-cat:hover {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+
+/* ==========================================
+   NAIMAH'S WARM EDITORIAL PORTFOLIO DESIGN
+========================================== */
+
+:root {
+    --cream: #F7F0E8;
+    --beige: #E8D8C8;
+    --plum: #805B7A;
+    --deep-plum: #493746;
+    --terracotta: #B98268;
+    --text-dark: #51464D;
+    --white: #FFFCF8;
+}
+
+/* General homepage styling */
+body {
+    background: var(--white);
+    color: var(--text-dark);
+}
+
+.home-design {
+    overflow: hidden;
+}
+
+.home-design h1,
+.home-design h2,
+.home-design h3,
+.home-design h4 {
+    color: var(--deep-plum);
+    font-family: Georgia, serif;
+}
+
+.home-design p {
+    color: var(--text-dark);
+    line-height: 1.9;
+}
+
+.home-label {
+    display: inline-block;
+    color: var(--plum);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+/* Welcome section */
+.home-hero {
+    background: var(--cream);
+    padding: 90px 0;
+    position: relative;
+}
+
+.home-hero h1 {
+    font-size: 58px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.home-hero p {
+    font-size: 16px;
+    max-width: 530px;
+}
+
+.hero-photo-frame {
+    background: var(--beige);
+    padding: 14px;
+    border-radius: 180px 180px 18px 18px;
+    max-width: 390px;
+    margin: auto;
+}
+
+.hero-photo-frame img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 170px 170px 12px 12px;
+}
+
+.home-button {
+    display: inline-block;
+    background: var(--plum);
+    color: #FFFFFF !important;
+    padding: 14px 25px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none !important;
+    margin: 8px 8px 0 0;
+}
+
+.home-button:hover {
+    background: var(--deep-plum);
+    color: #FFFFFF !important;
+}
+
+.home-button-outline {
+    background: transparent;
+    border: 1px solid var(--plum);
+    color: var(--plum) !important;
+}
+
+/* About section */
+.home-about {
+    background: var(--white);
+    padding: 90px 0;
+}
+
+.home-section-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.home-section-heading h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.about-card {
+    padding: 42px 35px;
+    min-height: 100%;
+    border-radius: 8px;
+    background: var(--cream);
+    border-bottom: 4px solid var(--terracotta);
+}
+
+.about-card.goal-card {
+    background: var(--beige);
+    border-bottom-color: var(--plum);
+}
+
+.about-card i {
+    font-size: 34px;
+    color: var(--plum);
+    margin-bottom: 22px;
+}
+
+.about-card h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.home-text-link {
+    display: inline-block;
+    color: var(--plum) !important;
+    font-weight: 700;
+    text-decoration: none !important;
+    margin-top: 12px;
+}
+
+/* Portfolio section */
+.home-explore {
+    background: var(--cream);
+    padding: 90px 0;
+}
+
+.portfolio-card {
+    background: var(--white);
+    padding: 38px 28px;
+    height: 100%;
+    min-height: 300px;
+    border: 1px solid var(--beige);
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.portfolio-card .card-number {
+    display: block;
+    color: var(--terracotta);
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin-bottom: 22px;
+}
+
+.portfolio-card i {
+    font-size: 30px;
+    color: var(--plum);
+    margin-bottom: 20px;
+}
+
+.portfolio-card h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.portfolio-card p {
+    font-size: 14px;
+}
+
+.portfolio-card .home-text-link {
+    margin-top: 15px;
+}
+
+/* Gallery section */
+.home-gallery {
+    background: var(--white);
+    padding: 90px 0;
+}
+
+.gallery-card {
+    background: var(--cream);
+    padding: 12px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gallery-card h4 {
+    text-align: center;
+    font-size: 21px;
+    margin: 22px 0 12px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .home-hero {
+        padding: 65px 0;
+    }
+
+    .home-hero h1 {
+        font-size: 46px;
+    }
+
+    .hero-photo-frame {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .home-hero h1 {
+        font-size: 38px;
+    }
+
+    .home-section-heading h2 {
+        font-size: 30px;
+    }
+
+    .about-card {
+        padding: 30px 24px;
+    }
+
+    .hero-photo-frame img {
+        height: 370px;
+    }
+
+    .gallery-card img {
+        height: 250px;
+    }
+}
+
+
+/* =========================================
+   HOMEPAGE DESIGN - WARM THEME
+========================================= */
+
+.home-design {
+    font-family: Arial, sans-serif;
+    color: #49372E;
+}
+
+/* WELCOME SECTION */
+
+.home-hero {
+    background: #F7F2EA;
+    padding: 100px 0;
+}
+
+.home-label {
+    color: #A66A50;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.home-hero h1 {
+    color: #49372E;
+    font-size: 52px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.home-hero p {
+    color: #665950;
+    font-size: 17px;
+    line-height: 1.9;
+    max-width: 550px;
+}
+
+.home-button {
+    display: inline-block;
+    background: #A66A50;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background: #80513E;
+    color: white;
+}
+
+.home-button-outline {
+    background: transparent;
+    color: #A66A50;
+    border: 1px solid #A66A50;
+}
+
+.home-button-outline:hover {
+    background: #A66A50;
+    color: white;
+}
+
+/* PROFILE PHOTO */
+
+.hero-photo-frame {
+    background: #E8D8C8;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.hero-photo-frame img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* SECTION HEADINGS */
+
+.home-section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home-section-heading h2 {
+    color: #49372E;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.home-section-heading p {
+    color: #665950;
+    line-height: 1.8;
+}
+
+/* ABOUT SECTION */
+
+.home-about {
+    background: #FFFFFF;
+    padding: 90px 0;
+}
+
+.about-card {
+    background: #E8D8C8;
+    padding: 40px 35px;
+    border-radius: 12px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(73,55,46,0.08);
+    transition: 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(73,55,46,0.14);
+}
+
+.about-card i {
+    font-size: 35px;
+    color: #A66A50;
+    margin-bottom: 20px;
+}
+
+.about-card h3 {
+    color: #49372E;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-card p {
+    color: #665950;
+    line-height: 1.9;
+}
+
+/* TEXT LINKS */
+
+.home-text-link {
+    color: #A66A50;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.home-text-link:hover {
+    color: #80513E;
+    text-decoration: underline;
+}
+
+/* PORTFOLIO SECTION */
+
+.home-explore {
+    background: #F7F2EA;
+    padding: 90px 0;
+}
+
+.portfolio-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(73,55,46,0.07);
+    transition: 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 30px rgba(73,55,46,0.12);
+}
+
+.portfolio-card i {
+    font-size: 42px;
+    color: #A66A50;
+    margin: 20px 0;
+}
+
+.portfolio-card h4 {
+    color: #49372E;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.portfolio-card p {
+    color: #665950;
+    line-height: 1.8;
+}
+
+.card-number {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #C9B5A4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* GALLERY SECTION */
+
+.home-gallery {
+    background: #E8D8C8;
+    padding: 90px 0;
+}
+
+.gallery-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    height: 100%;
+    box-shadow: 0 8px 25px rgba(73,55,46,0.08);
+    transition: 0.3s;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery-card h4 {
+    color: #49372E;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 767px) {
+
+    .home-hero {
+        padding: 60px 0;
+    }
+
+    .home-hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-photo-frame {
+        margin-top: 40px;
+    }
+
+    .home-section-heading h2 {
+        font-size: 28px;
+    }
+
+    .home-about,
+    .home-explore,
+    .home-gallery {
+        padding: 60px 0;
+    }
+
+    .about-card {
+        padding: 30px 25px;
+    }
+
+    .home-button {
+        margin-bottom: 12px;
+    }
+}
+
+
+/* =========================================
+   WARM PORTFOLIO HEADER
+========================================= */
+
+.header-area {
+    background: #FFFFFF;
+}
+
+.main-header {
+    background: #FFFFFF;
+    box-shadow: 0 3px 15px rgba(73,55,46,0.06);
+}
+
+.main-menu ul li a {
+    color: #49372E !important;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 35px 15px;
+    transition: 0.3s;
+}
+
+.main-menu ul li a:hover {
+    color: #A66A50 !important;
+}
+
+.main-menu ul li a::before {
+    background: #A66A50 !important;
+}
+
+
+/* =========================================
+   WARM PORTFOLIO FOOTER
+========================================= */
+
+.footer-area {
+    background: #49372E;
+}
+
+.footer-top-cap span {
+    color: #F7F2EA;
+}
+
+.footer-top-cap p {
+    color: #D8C9BB;
+}
+
+.footer-copy-right p {
+    color: #D8C9BB;
+}
+
+.footer-copy-right a {
+    color: #D6A58D;
+}
+
+.footer-social a {
+    color: #F7F2EA;
+}
+
+.footer-social a:hover {
+    color: #D6A58D;
+}
+
+
+/* =================================
+   ABOUT ME PAGE - WARM THEME
+================================= */
+
+/* Page heading */
+.hero-cap h2 {
+    color: #49372E !important;
+}
+
+/* About Me introduction and education */
+.about-intro-section {
+    background: #F7F2EA !important;
+    padding: 80px 0;
+}
+
+.about-intro-section span {
+    color: #A66A50 !important;
+}
+
+.about-intro-section h2,
+.about-intro-section h3,
+.about-intro-section h4 {
+    color: #49372E !important;
+}
+
+.about-intro-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+/* Education cards */
+.about-intro-section div[style*="border-left"] {
+    background: #FFFCF8 !important;
+    border-left: 5px solid #A66A50 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 8px 25px rgba(73, 55, 46, 0.08);
+}
+
+.about-intro-section div[style*="border-left"] span {
+    background: #E8D8C8 !important;
+    color: #80513E !important;
+}
+
+.about-intro-section a {
+    color: #A66A50 !important;
+}
+
+/* Personal Qualities */
+.about-qualities-section {
+    background: #FFFCF8 !important;
+    padding: 80px 0;
+}
+
+.about-qualities-section h2,
+.about-qualities-section h4 {
+    color: #49372E !important;
+}
+
+.about-qualities-section span {
+    color: #A66A50 !important;
+}
+
+.about-qualities-section p {
+    color: #665950 !important;
+}
+
+.about-qualities-section .col-lg-4 > div {
+    background: #F7F2EA !important;
+    border-radius: 18px !important;
+    box-shadow: 0 8px 25px rgba(73, 55, 46, 0.08);
+}
+
+.about-qualities-section i {
+    color: #A66A50 !important;
+}
+
+/* Future Aspirations */
+.about-aspirations-section {
+    background: #49372E !important;
+    padding: 70px 20px;
+}
+
+.about-aspirations-section h2,
+.about-aspirations-section p,
+.about-aspirations-section i {
+    color: #FFFCF8 !important;
+}
+
+/* About page spacing */
+.about-intro-section,
+.about-qualities-section,
+.about-aspirations-section {
+    box-sizing: border-box;
+}
+
+
+/* ABOUT PAGE - WARM HEADER */
+
+.header-area,
+.main-header {
+    background: #FFFCF8 !important;
+}
+
+.header-sticky {
+    background: #FFFCF8 !important;
+}
+
+.main-menu ul li a {
+    color: #49372E !important;
+}
+
+.main-menu ul li a:hover {
+    color: #A66A50 !important;
+}
+
+/* =================================
+   PROFESSIONAL PAGE - WARM THEME
+================================= */
+
+.professional-interests-section {
+    background: #F7F2EA !important;
+    padding: 80px 0;
+}
+
+.professional-interests-section span {
+    color: #A66A50 !important;
+}
+
+.professional-interests-section h2,
+.professional-interests-section h4 {
+    color: #49372E !important;
+}
+
+.professional-interests-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+.professional-interests-section .col-lg-6 > div {
+    background: #FFFCF8 !important;
+    border-top: 5px solid #A66A50 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 8px 25px rgba(73,55,46,0.08);
+}
+
+.professional-interests-section i {
+    color: #A66A50 !important;
+}
+
+.professional-interests-section a {
+    color: #A66A50 !important;
+}
+
+.professional-development-section {
+    background: #FFFCF8 !important;
+    padding: 70px 20px;
+}
+
+.professional-development-section > .container > div > div:first-child {
+    background: #E8D8C8 !important;
+}
+
+.professional-development-section span {
+    color: #A66A50 !important;
+}
+
+.professional-development-section h3 {
+    color: #49372E !important;
+}
+
+.professional-development-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+.professional-development-section i {
+    color: #A66A50 !important;
+}
+
+/* Professional page heading */
+.hero-cap h2 {
+    color: #49372E !important;
+}
+
+/* =================================
+   CAREER GOALS PAGE - WARM THEME
+================================= */
+
+.career-goals-section {
+    background: #F7F2EA !important;
+    padding: 80px 0;
+}
+
+.career-goals-section span {
+    color: #A66A50 !important;
+}
+
+.career-goals-section h2 {
+    color: #49372E !important;
+}
+
+.career-goals-section h3 {
+    color: #49372E !important;
+    margin-bottom: 20px;
+}
+
+.career-goals-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+.career-goals-section .col-lg-5 > div,
+.career-goals-section .col-lg-7 > div {
+    background: #FFFCF8 !important;
+    border-top: 5px solid #A66A50 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 8px 25px rgba(73, 55, 46, 0.08);
+}
+
+.career-goals-section .col-lg-5 > div > div,
+.career-goals-section .col-lg-7 > div > div {
+    background: #E8D8C8 !important;
+}
+
+.career-goals-section i,
+.career-goals-section li i {
+    color: #A66A50 !important;
+}
+
+.career-goals-section .col-lg-5 p span,
+.career-goals-section .col-lg-7 span {
+    color: #A66A50 !important;
+}
+
+/* Career Goals page heading */
+.hero-cap h2 {
+    color: #49372E !important;
+}
+
+/* =================================
+   ACHIEVEMENTS PAGE - WARM THEME
+================================= */
+
+.achievements-section {
+    background: #F7F2EA !important;
+    padding: 80px 0;
+}
+
+.achievements-section span {
+    color: #A66A50 !important;
+}
+
+.achievements-section h2 {
+    color: #49372E !important;
+    font-weight: 700;
+}
+
+.achievements-section h3 {
+    color: #49372E !important;
+    font-size: 22px;
+}
+
+.achievements-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+.achievements-section .col-lg-6 > div {
+    background: #FFFCF8 !important;
+    border-top: 5px solid #A66A50 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 8px 25px rgba(73, 55, 46, 0.08);
+    height: 100%;
+    overflow: hidden;
+}
+
+.achievements-section img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Achievements page heading */
+.hero-cap h2 {
+    color: #49372E !important;
+}
+
+/* =================================
+   MY INTERESTS PAGE - WARM THEME
+================================= */
+
+/* Introduction */
+.interests-intro-section {
+    background: #F7F2EA !important;
+    padding: 40px 20px;
+}
+
+.interests-intro-section h3 {
+    color: #49372E !important;
+    font-weight: 700;
+}
+
+.interests-intro-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+/* Four Interests Cards */
+.interests-cards-section {
+    background: #FFFCF8 !important;
+    padding: 40px 0 50px;
+}
+
+.interests-cards-section .single-cat {
+    background: #F7F2EA !important;
+    border-radius: 18px;
+    padding: 35px 25px;
+    box-shadow: 0 8px 25px rgba(73, 55, 46, 0.08);
+    height: calc(100% - 50px);
+}
+
+.interests-cards-section .cat-icon i {
+    color: #A66A50 !important;
+}
+
+.interests-cards-section .cat-cap h5 {
+    color: #49372E !important;
+    font-weight: 700;
+    margin: 20px 0 15px;
+}
+
+.interests-cards-section .cat-cap p {
+    color: #665950 !important;
+    line-height: 1.8;
+}
+
+/* Interest Links */
+.interests-cards-section .genric-btn {
+    background: #A66A50 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #A66A50 !important;
+    border-radius: 25px;
+}
+
+.interests-cards-section .genric-btn:hover {
+    background: #80513E !important;
+    border-color: #80513E !important;
+    color: #FFFFFF !important;
+}
+
+/* Thank You Section */
+.interests-thankyou-section {
+    background: #E8D8C8 !important;
+    padding: 60px 20px;
+}
+
+.interests-thankyou-section i {
+    color: #A66A50 !important;
+}
+
+.interests-thankyou-section h3 {
+    color: #49372E !important;
+    font-weight: 700;
+}
+
+.interests-thankyou-section p {
+    color: #665950 !important;
+    line-height: 1.9;
+}
+
+/* Page Heading */
+.hero-cap h2 {
+    color: #49372E !important;
+}
+
+/* SIMPLE FOOTER - WARM THEME */
+
+.simple-footer {
+    background: #49372E !important;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+.simple-footer p {
+    color: #FFFCF8 !important;
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.simple-footer {
+    background: #33251F !important;
+    padding: 30px 20px;
+    margin-top: 0;
+}
+
+/* HOME PAGE PROFILE PICTURE - CIRCLE AND CENTER */
+
+.home-hero .col-lg-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-hero .col-lg-5 img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* CONTACT ME CARD - FINAL STYLE */
+
+.contact-card-section {
+    background: #F8F5FC !important;
+    padding: 50px 20px !important;
+}
+
+.contact-card {
+    background: #FFFFFF !important;
+    padding: 40px !important;
+    border-radius: 15px !important;
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15) !important;
+    border: 2px solid #663399 !important;
+}
+
+.contact-card h2 {
+    color: #663399 !important;
+    margin-bottom: 25px;
+}
+
+.contact-card p {
+    color: #333333 !important;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.contact-card a {
+    color: #663399 !important;
+    text-decoration: none;
+}
+
+/* CONTACT ME CARD - WARM THEME */
+
+.contact-card-section {
+    background: #F8F3EE !important;
+    padding: 50px 20px !important;
+}
+
+.contact-card {
+    background: #FFFFFF !important;
+    padding: 40px !important;
+    border-radius: 15px !important;
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(73, 55, 46, 0.15) !important;
+    border: 2px solid #8B6F5C !important;
+}
+
+.contact-card h2 {
+    color: #49372E !important;
+    margin-bottom: 25px;
+}
+
+.contact-card p {
+    color: #49372E !important;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.contact-card i,
+.contact-card a {
+    color: #8B6F5C !important;
+}
+
+.contact-card a {
+    text-decoration: none;
+}
+
+
+/* PERSONAL GALLERY */
+.home-gallery {
+    padding: 70px 0;
+}
+
+.home-gallery .home-section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-category {
+    margin-bottom: 45px;
+}
+
+.gallery-category h3 {
+    color: #663399;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.gallery-card img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-card h4 {
+    color: #663399;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+/* PERSONAL GALLERY */
+.home-gallery {
+    padding: 70px 0;
+}
+
+.home-gallery .home-section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-main-card {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: #f5f2fa;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.gallery-main-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-decoration: none;
+}
+
+.gallery-main-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-card-content {
+    padding: 22px 15px;
+}
+
+.gallery-card-content h3 {
+    color: #663399;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.gallery-card-content p {
+    color: #555;
+    margin-bottom: 0;
+}
+
+.gallery-hidden {
+    display: none;
+}
+
+/* GALLERY CLOSE BUTTON */
+.mfp-wrap .mfp-close {
+    color: #ffffff !important;
+    font-size: 40px !important;
+    font-weight: bold;
+    opacity: 1 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+/* KEEP GALLERY ABOVE THE NAVIGATION BAR */
+.mfp-bg {
+    z-index: 999990 !important;
+}
+
+.mfp-wrap {
+    z-index: 999995 !important;
+}
+
+.mfp-container {
+    z-index: 999996 !important;
+}
+
+
+
+/* SOFT WAVE HEADER BACKGROUND */
+.slider-area .slider-height2 {
+    background-color: #F3EBDD !important;
+    background-image: repeating-radial-gradient(
+        ellipse at 50% 120%,
+        transparent 0 22px,
+        rgba(139, 115, 85, 0.20) 23px 25px,
+        transparent 26px 42px
+    ) !important;
+    background-size: 100% 100% !important;
+}
+
+
+
+/* SMALL BOW RIBBON PATTERN */
+.slider-area .slider-height2 {
+    background-color: #F3EBDD !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='55' viewBox='0 0 70 55'%3E%3Cg fill='none' stroke='%23B5A18A' stroke-width='1.2' opacity='0.55'%3E%3Cpath d='M35 27 C27 12 14 14 18 25 C21 31 29 29 35 27 C41 29 49 31 52 25 C56 14 43 12 35 27Z'/%3E%3Cpath d='M35 27 L29 39 L35 36 L41 39 L35 27Z'/%3E%3C/g%3E%3C/svg%3E") !important;
+    background-size: 70px 55px !important;
+    background-repeat: repeat !important;
+}
+
+/* CENTER PAGE TITLE */
+.slider-area .hero-cap {
+    text-align: center !important;
+}
+
+.slider-area .hero-cap .breadcrumb {
+    justify-content: center !important;
+    background: transparent !important;
+}
+/* REDUCE PAGE HEADER HEIGHT */
+.slider-area .slider-height2 {
+    min-height: 220px !important;
+    height: 220px !important;
+}
+
+/* KEEP TITLE CENTERED */
+.slider-area .hero-cap {
+    text-align: center !important;
+}
+/* REMOVE ZOOM-OUT CURSOR IN GALLERY */
+.mfp-zoom-out-cur {
+    cursor: default !important;
+}
+
+/* KEEP CLOSE BUTTON CLICKABLE */
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: pointer !important;
+}
